@@ -1,0 +1,188 @@
+// Sidebar
+$sidebar-link-padding: 11px 12px;
+$sidebar-icon-size: 23px;
+$sidebar-first-level-padding: 0 0 10px 0;
+$sidebar-first-level-link-padding: 10px 15px;
+$sidebar-first-level-icon-size: 14px;
+
+/*******************
+Main sidebar
+******************/
+
+.left-sidebar {
+  position: absolute;
+  width: $sidebar-width-full;
+  height: 100%;
+  top: 0px;
+  border-right: 1px solid $border-color;
+  z-index: 10;
+  padding-top: 70px;
+  background: $sidebar;
+}
+
+/*******************
+sidebar navigation
+******************/
+.scroll-sidebar {
+  height: calc(100% - 20px);
+  position: relative;
+}
+
+.sidebar-nav {
+  ul {
+    padding: 10px 20px;
+    .sidebar-item {
+      margin-bottom: 10px;
+      .sidebar-link {
+        color: $sidebar-text;
+        padding: $sidebar-link-padding;
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+        line-height: 25px;
+        border-radius: 9px;
+        i {
+          font-style: normal;
+          width: 35px;
+          line-height: 25px;
+          font-size: $sidebar-icon-size;
+          color: $sidebar-icons;
+          display: inline-block;
+          text-align: center;
+        }
+        &.active,
+        &:hover {
+          opacity: 1;
+        }
+        &.active {
+          font-weight: 500;
+        }
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.04);
+        }
+      }
+      &.selected > .sidebar-link {
+        // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: $info;
+        color: $white !important;
+        opacity: 1;
+        i {
+          color: $white !important;
+        }
+        /*background: rgba(0, 0, 0, 0.04);*/ //For set the background of the links
+      }
+      /*******************
+           First level
+           ******************/
+      .first-level {
+        padding: $sidebar-first-level-padding;
+        .sidebar-item.active .sidebar-link {
+          opacity: 1;
+        }
+        .sidebar-item .sidebar-link {
+          padding: $sidebar-first-level-link-padding;
+          i {
+            font-size: $sidebar-first-level-icon-size;
+          }
+        }
+      }
+    }
+    /*******************
+         Small cap
+         ******************/
+    .nav-small-cap {
+      font-size: 12px;
+      padding: $sidebar-link-padding;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      line-height: 30px;
+      margin-top: 10px;
+      color: $sidebar-text;
+      opacity: 0.3;
+      text-transform: uppercase;
+      i {
+        line-height: 30px;
+        margin: 0 5px;
+      }
+    }
+  }
+  > #sidebarnav > .sidebar-item > .sidebar-link:hover {
+    /*background: rgba(0, 0, 0, 0.04);*/
+  }
+}
+/*******************
+ common m-p removed
+******************/
+.sidebar-nav {
+  ul {
+    margin: 0px;
+    li {
+      list-style: none;
+    }
+  }
+}
+.collapse.in {
+  display: block;
+}
+/*******************
+Down arrow
+******************/
+.sidebar-nav .has-arrow {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: $sidebar-text;
+    margin-left: 10px;
+    -webkit-transform: rotate(135deg) translate(0, -50%);
+    -ms-transform: rotate(135deg) translate(0, -50%);
+    -o-transform: rotate(135deg) translate(0, -50%);
+    transform: rotate(135deg) translate(0, -50%);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top;
+    top: 26px;
+    right: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+}
+
+/*.sidebar-nav .active > .has-arrow::after,*/
+
+/*.sidebar-nav li.selected > .has-arrow::after,*/
+.sidebar-nav li.active > .has-arrow::after,
+.sidebar-nav li > .has-arrow.active::after,
+.sidebar-nav .has-arrow[aria-expanded="true"]::after {
+  -webkit-transform: rotate(-135deg) translate(0, -50%);
+  -ms-transform: rotate(-135deg) translate(0, -50%);
+  -o-transform: rotate(-135deg) translate(0, -50%);
+  transform: rotate(-135deg) translate(0, -50%);
+}
+
+/*******************
+User Profile
+******************/
+.user-profile {
+  padding: 15px;
+
+  .user-content,
+  .user-name,
+  .user-email {
+    color: $theme-light;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+.create-btn {
+  height: 40px;
+  background: $dark;
+}

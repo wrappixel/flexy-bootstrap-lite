@@ -1,0 +1,307 @@
+/*******************************/
+
+// Custom Variables
+
+/*******************************/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+/*Theme Colors*/
+
+$themecolor-dark: #028ee1;
+$themecolor-alt: #26c6da;
+
+$themecolor: #1a9bfc;
+$theme-light: #fff;
+$theme-dark: #212529;
+
+$skin1: #1a9bfc;
+$skin2: #1e4db7;
+$skin3: #fc4b6c;
+$skin4: #39cb7f;
+$skin5: #192133;
+$skin51: #0c111b;
+$skin6: #fff;
+
+/*Topbar Colors*/
+
+$topbar: $theme-light;
+$topbar-height: 70px;
+$topbar-navlink-padding: 0px 12px;
+$topbar-navlink-font-size: 21px;
+$topbar-navlink-height: 70px;
+$topbar-navbrand-padding: 0 35px;
+
+/*Sidebar Colors*/
+
+$sidebar: $theme-light;
+$sidebar-alt: #e8eff0;
+$sidebar-text: #fff;
+$sidebar-icons: #fff;
+$sidebar-text-dark: #647279;
+$sidebar-icons-dark: #757575;
+
+$sidebar-width-full: 260px;
+$sidebar-width-mini: 65px;
+
+/*Shadow*/
+
+$shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+
+/*transitions*/
+
+$transitions: 0.2s ease-in;
+
+/*Dark transparent bg*/
+
+$transparent-dark-bg: rgba(0, 0, 0, 0.05);
+
+$lft: left;
+$rgt: right;
+$card-alt: #e4e9ef;
+
+%square {
+  border-radius: 0px;
+}
+
+%rotate45 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+/*******************************/
+
+// Bootstrap overrides
+
+/*******************************/
+
+/**
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component
+ */
+
+//
+// Color system
+//
+$white: #fff !default;
+$gray-100: #f6f8fb !default;
+$gray-200: #ecf0f2 !default;
+$gray-300: #f1f9ff !default;
+$gray-400: #ced4da !default;
+$gray-500: #546269 !default;
+$gray-600: #6c757d !default;
+$gray-700: #4f5467 !default;
+$gray-800: #11142d !default;
+$gray-900: #223640 !default;
+$black: #000 !default;
+
+$blue: #1a9bfc !default;
+$indigo: #6610f2 !default;
+$purple: #7460ee !default;
+$pink: #e83e8c !default;
+$red: #fc4b6c !default;
+$orange: #fb8c00 !default;
+$yellow: #fdc90f !default;
+$green: #39cb7f !default;
+$teal: #20c997 !default;
+$cyan: #0bb2fb !default;
+$primary: #1e4db7 !default;
+$inverse: #2f3d4a !default;
+$text-muted: #777e89 !default;
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800,
+);
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+$cyan: $cyan !default;
+$orange: $orange !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "cyan": $cyan,
+    "orange": $orange,
+    "purple": $purple,
+  ),
+  $theme-colors
+);
+
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-caret: true !default;
+$enable-rounded: true !default;
+$enable-shadows: false !default;
+$enable-gradients: false !default;
+$enable-transitions: true !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+// Body
+//
+// Settings for the  element.
+$main-body-bg: #fff !default;
+$body-bg: #fff;
+$body-color: #67757c !default;
+$grid-gutter-width: 30px !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 0.9375rem;
+$font-family-sans-serif: "DM Sans", sans-serif !default;
+$font-weight-light: 400 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-base: 400 !default;
+
+$h1-font-size: 30px !default;
+$h2-font-size: 24px !default;
+$h3-font-size: 21px !default;
+$h4-font-size: 18px !default;
+$h5-font-size: 16px !default;
+$h6-font-size: 14px !default;
+
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-line-height: 1.235 !default;
+$headings-font-weight: 500 !default;
+$headings-color: #11142d !default;
+
+// Breadcrumbs
+$breadcrumb-bg: $body-bg;
+$breadcrumb-margin-bottom: 1.5rem;
+
+// Cards
+$card-spacer-y: 30px !default;
+$card-spacer-x: 30px !default;
+$card-border-width: 1px !default;
+$card-border-radius: 20px !default;
+$card-columns-margin: 30px !default;
+$card-border-color: $gray-200 !default;
+
+// Dropdowns
+$dropdown-item-padding-x: 1rem !default;
+$dropdown-item-padding-y: 0.65rem !default;
+$dropdown-border-color: $gray-200;
+$dropdown-divider-bg: $gray-100;
+
+// Buttons
+$btn-secondary-border: $gray-300;
+$btn-border-radius: 4px !default;
+$btn-border-radius-sm: 5px !default;
+$btn-border-radius-lg: 10px !default;
+
+// Progress bars
+$progress-bg: $gray-100;
+
+// Tables
+$table-color: #777e89;
+$table-bg-accent: $gray-100;
+$table-bg-hover: $gray-100;
+$table-hover-bg: $gray-100 !default;
+$table-cell-padding-y: 16px !default;
+$table-cell-padding-x: 16px !default;
+$table-bg-level: -10 !default;
+$table-border-color: #e8eef3 !default;
+$table-group-separator-color: $gray-200;
+$table-striped-bg: $light !default;
+$table-cell-padding-y-sm: 10px !default;
+$table-cell-padding-x-sm: 15px !default;
+
+// Components
+$component-active-color: $white !default;
+$component-active-bg: $themecolor !default;
+
+$badge-font-weight: 400 !default;
+$badge-pill-padding-x: 0.5rem !default;
+$badge-font-size: 0.75rem !default;
+$badge-padding-y: 4px !default;
+$badge-padding-x: 13px !default;
+$badge-border-radius: 6px !default;
+
+// Forms
+$input-group-addon-bg: $gray-100;
+$input-border-color: $gray-200;
+$input-group-addon-border-color: $gray-200;
+$input-btn-focus-color: rgba(0, 0, 0, 0.25) !default;
+$input-focus-border-color: rgba(0, 0, 0, 0.25) !default;
+$custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
+$custom-select-indicator: url(../../assets/images/custom-select.png) !default;
+$input-btn-focus-box-shadow: transparent !default;
+$custom-select-focus-box-shadow: transparent !default;
+$custom-select-indicator: str-replace(url(""), "%23") !default;
+//
+// Define common padding and border radius sizes and more.
+$border-width: 1px !default;
+$border-color: $gray-200 !default;
+
+$border-radius: 2px !default;
+$border-radius-lg: 2px !default;
+$border-radius-sm: 1px !default;
+
+// Progress bars
+$progress-height: 5px !default;
+
+//Tabs
+$nav-tabs-link-active-bg: $white !default;
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1600px,
+) !default;
+
+//Navbar
+$navbar-dark-color: rgba($white, 0.6) !default;
+$navbar-dark-hover-color: rgba($white, 1) !default;
+$navbar-light-color: #939db1 !default;
+$navbar-light-hover-color: rgba(0, 0, 0, 0.9) !default;
