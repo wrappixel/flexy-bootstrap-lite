@@ -6,7 +6,7 @@
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-lite-y.jpg">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-lite-y.jpg" />
+  <img src="https://www.wrappixel.com/wp-content/uploads/2021/05/flexy-free.jpg" />
 </a>
 
 <!-- Description of Template -->
@@ -31,30 +31,18 @@
 <tr>
 <th>Bootstrap</th>
 <th>React</th>
-<th>Vue</th>
-<th>Angular</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtremeadmin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-y.jpg" alt="Xtreme Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/05/flexy.jpg" alt="Flexy Template  Bootstrap" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/xtreme-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-react-admin-template-y.jpg" alt="Xtreme Template  React" style="max-width:150px;">
-  </a>
-</td>
-<td>
-  <a href="https://www.wrappixel.com/templates/xtreme-vuesax-admin-pro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-vuesax-admin-y.jpg" alt="Xtreme Template  Vue" style="max-width:150px;">
-  </a>
-</td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/xtreme-angular-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-angular-admin-y.jpg" alt="Xtreme Template  Angular" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/flexy-react-material-dashboard-admin/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/07/flexy-react-admin.jpg" alt="Flexy Template  React" style="max-width:150px;">
   </a>
 </td>
 </tr>
@@ -91,7 +79,7 @@
 <!-- Upgrade to Premium version of Template -->
 <h2>Upgrade to Premium version</h2>
 <a target="_blank" href="https://www.wrappixel.com/templates/xtremeadmin/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-y.jpg" />
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/05/flexy.jpg" />
 </a>
 <p>
    Checkout our premium version of Xtreme Bootstrap Admin for lots more features and ready to use page templates.<br>
