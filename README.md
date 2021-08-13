@@ -5,7 +5,7 @@
 </h1>
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/xtreme-bootstrap-admin-lite-y.jpg">
+<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/2021/05/flexy-free.jpg">
   <img src="https://www.wrappixel.com/wp-content/uploads/2021/05/flexy-free.jpg" />
 </a>
 
@@ -78,7 +78,7 @@
 
 <!-- Upgrade to Premium version of Template -->
 <h2>Upgrade to Premium version</h2>
-<a target="_blank" href="https://www.wrappixel.com/templates/xtremeadmin/">
+<a target="_blank" href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">
   <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/05/flexy.jpg" />
 </a>
 <p>
