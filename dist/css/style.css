@@ -12200,10 +12200,10 @@ Topbar Responsive
           align-items: center;
 }
 .page-breadcrumb .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: "";
-  font-family: themify;
+  content: "";
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
   color: #ced4da;
-  font-size: 11px;
 }
 
 /*******************
