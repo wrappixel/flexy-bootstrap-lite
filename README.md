@@ -63,7 +63,7 @@ Flexy Bootstrap Admin Dashboard
   6+ Pages Template
   </td>
   <td>
-  900+ Page Templates
+  500+ Page Templates
   </td>
 </tr>
 <tr>
@@ -111,7 +111,7 @@ Flexy Bootstrap Admin Dashboard
   -
   </td>
   <td>
-  9+ Unique Demos
+  5+ Unique Demos
   </td>
 </tr>
 <tr>
@@ -127,7 +127,7 @@ Flexy Bootstrap Admin Dashboard
   -
   </td>
   <td>
-  9+ Ready to Use App
+  12+ Ready to Use App
   </td>
 </tr>
 <tr>
