@@ -13,8 +13,8 @@ Flexy Bootstrap Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>Flexy Free React Material Admin Version</th>
-<th>Flexy React Material Dashboard Version</th>
+<th>Flexy Bootstrap Free Version</th>
+<th>Flexy Bootstrap Pro Version</th>
 </tr>
 </thead>
 <tbody>
@@ -23,7 +23,7 @@ Flexy Bootstrap Admin Dashboard
     <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/flexy-bootstrap-free/html/index.html">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/flexy-bootstrap-free/landingpage/index.html">Live Preview</a>
+  <a href="https://bootstrapdemos.wrappixel.com/flexy/dist/main/index.html">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -148,7 +148,7 @@ Flexy Bootstrap Admin Dashboard
 </a>
 <p>
   Checkout our premium version of Flexy bootstrap Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/flexy-bootstrap-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">Download</a>
+  <a href="https://bootstrapdemos.wrappixel.com/flexy/dist/main/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">Download</a>
 </p>
 
 <!-- Versions of Template -->
