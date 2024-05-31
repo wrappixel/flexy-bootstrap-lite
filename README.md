@@ -4,7 +4,7 @@ Flexy Bootstrap Admin Dashboard
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/templates/flexy-admin-lite/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/2021/05/flexy-free.jpg"" />
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-free-bootstrap-admin-wpn.jpg" />
 </a>
 
 
@@ -31,7 +31,7 @@ Flexy Bootstrap Admin Dashboard
     <a href="https://www.wrappixel.com/templates/flexy-admin-lite/">Download Now</a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">Purchase Now</a>
+    <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/?ref=33">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -143,12 +143,12 @@ Flexy Bootstrap Admin Dashboard
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/05/flexy.jpg" alt="">
+<a target="_blank" href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-bootstrap-admin-wpn.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Flexy bootstrap Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://bootstrapdemos.wrappixel.com/flexy/dist/main/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/">Download</a>
+  <a href="https://bootstrapdemos.wrappixel.com/flexy/dist/main/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/?ref=33">Download</a>
 </p>
 
 <!-- Versions of Template -->
