@@ -156,7 +156,7 @@ Flexy Bootstrap Admin Dashboard
 <table>
 <thead>
 <tr>
-<th>React</th>
+<th>Bootstrap</th>
 <th>Angular</th>
 <th>Next Js</th>
 <th>Vue Js</th>
@@ -165,23 +165,23 @@ Flexy Bootstrap Admin Dashboard
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/flexy-react-material-dashboard-admin/" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/07/flexy-react-admin.jpg" alt="" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-bootstrap-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/flexy-material-angular-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/2022/03/flexy-angular-pro.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-angular-material-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/04/nextjs-flexy.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-nextjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
   <a href="https://www.wrappixel.com/templates/flexy-vuetify-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/03/fley-vue.jpg" alt="" style="max-width:150px;">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/flexy-vuetify-vuejs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 </td>
