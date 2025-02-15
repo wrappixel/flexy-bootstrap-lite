@@ -194,7 +194,7 @@ $badge-border-radius: 4px;
 $table-color: #777e89;
 $table-cell-padding-y: 16px !default;
 $table-cell-padding-x: 16px !default;
-$table-th-font-weight: 600 !default;
+$table-th-font-weight: 500 !default;
 $table-striped-bg: $gray-200 !default;
 $table-hover-bg: $gray-100 !default;
 $table-border-color: $border-color !default;
@@ -202,7 +202,7 @@ $table-border-color: $border-color !default;
 
 // Input
 $form-label-color: $gray-800;
-$form-label-font-weight: 600;
+$form-label-font-weight: 500; 
 $form-select-indicator-padding: 38px;
 $form-select-border-radius: 7px !default;
 $form-select-box-shadow: unset !default;
