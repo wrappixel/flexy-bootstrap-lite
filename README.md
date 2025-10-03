@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://www.wrappixel.com/" target="_blank">
-      <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="sneat-logo" width="100px" height="100px">
+      <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="flexy-image" width="100px" height="100px">
    </a>
 </p>
 
